@@ -31,6 +31,7 @@ function changeCount(change){
     let dollars = 0
     let cents = 0
     let changeArr = change.split(' ')
+
     
     for(let i = 0; i < changeArr.length; i++) {
       if(changeArr[i] == 'penny')
